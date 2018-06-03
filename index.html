@@ -3,48 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Secrent Agency Supply Inc.</title>
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
   </head>
   <body>
     <!--Heading section-->
     <header>
+      <div class="top-banner">
+        <div class="logo centerwapper flex-content">
+          <div class="img-container">
+            <img src="./resources/images/logo.png" alt="logo">
+          </div>
+          <p class="uppercase">Secret Agent Supply Inc.</p>
+        </div>
+      </div>
       <!--Front banner-->
-      <div id="heading-image">
-        <div class="banner">
-          <p class="uppercase">New Arrival</p>
-          <h1 class="uppercase">Sport Bikes and Motorcycles</h1>
+      <div id="heading-image" class="flex-content">
+        <div class="centerwapper">
+          <div class="banner">
+            <p class="uppercase">New Arrival</p>
+            <h1 class="uppercase">Sport Bikes and Motorcycles</h1>
+          </div>
         </div>
       </div>
       <!--Navigation-->
       <nav>
-        <ul>
-          <li><a href="#">Eyewear</a></li>
-          <li><a href="#">Apparel</a></li>
-          <li><a href="#">Gadgets</a></li>
-          <li><a href="#">Vehicles</a></li>
-          <li><a href="#">Glasses</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="centerwapper">
+          <ul class="flex-content">
+            <li><a href="#">Eyewear</a></li>
+            <li><a href="#">Apparel</a></li>
+            <li><a href="#">Gadgets</a></li>
+            <li><a href="#">Vehicles</a></li>
+            <li><a href="#">Glasses</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <!--content section-->
-    <div  id="content" class="">
+    <div  id="content" class="centerwapper">
 
       <!--Gallery-->
       <div class="gallery flex-content">
         <div class="gallery-item">
-          <img src="./resources/images/pen.png" alt="Exploding Pen">
-          <p>Exploding Pen</p>
+          <div class="gallery-img-container">
+            <img src="./resources/images/pen.png" alt="Exploding Pen">
+          </div>
+          <span>Exploding Pen</span>
         </div>
         <div class="gallery-item">
-          <img src="./resources/images/watch.png" alt="Cellular Watch">
-          <p>Cellular Watch</p>
+          <div class="gallery-img-container">
+            <img src="./resources/images/watch.png" alt="Cellular Watch">
+          </div>
+          <span>Cellular Watch</span>
         </div>
         <div class="gallery-item">
-          <img src="./resources/images/glasses.png" alt="Thermal Glasses">
-          <p>Thermal Glasses</p>
+          <div class="gallery-img-container">
+            <img src="./resources/images/glasses.png" alt="Thermal Glasses">
+          </div>
+          <span>Thermal Glasses</span>
         </div>
       </div>
 
@@ -52,18 +70,20 @@
       <div class="information flex-content">
         <div class="information-item">
           <p>Location</p>
-          <p>-47.346436, 84.32354</p>
+          <span>-47.346436, 84.32354</span>
         </div>
         <div class="information-item">
           <p>Hours</p>
-          <p>0800 - 1800</p>
+          <span>0800 - 1800</span>
         </div>
       </div>
     </div>
 
     <!--footer section-->
     <footer>
-      <p>&copy; Copyright Secret Agency Supply Inc.</p>
+      <div class="centerwapper">
+        <p>&copy; Copyright Secret Agency Supply Inc.</p>
+      </div>
     </footer>
   </body>
 </html>
