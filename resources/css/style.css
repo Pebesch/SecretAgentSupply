@@ -143,3 +143,82 @@ footer{
 .uppercase{
   text-transform: uppercase;
 }
+
+.nav-small{
+  display: none;
+}
+
+@media screen and (max-width: 1024px){
+  .nav-small{
+    display: block;
+  }
+
+  .nav-small div ul{
+    justify-content: center;
+  }
+
+  .nav-big{
+    display: none;
+  }
+
+  .centerwapper{
+    width: 100%;
+  }
+
+  .gallery-item{
+    width: 47%;
+  }
+
+  .gallery-item.glasses{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 470px){
+  #heading-image{
+    height: 15rem;
+  }
+
+  .banner{
+    margin-top: 10rem;
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner p{
+    padding: 1rem 0 0.5rem 2rem;
+    font-size: 0.77rem;
+  }
+
+  .banner h1{
+    padding: 0 0 0.5rem 2rem;
+    font-size: 1rem;
+  }
+
+  .gallery{
+      justify-content: center;
+  }
+
+  .gallery-item{
+    width: 90%;
+  }
+
+  .gallery-item.watch{
+    display: none;
+  }
+
+  .information{
+      flex-direction: column;
+  }
+
+  .information-item{
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
